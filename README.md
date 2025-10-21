@@ -10,7 +10,6 @@
 - Buat file baru
 - Buat struktur dasar dari dokumen HTML
 - Mengikuti langkah-langkah yang tertera
-- Lakukan validasi dokumen CSS
 
 # Javascript 1 
 ```
