@@ -124,7 +124,7 @@ Seleksi kondisi (if.else)
     </body>
 </html>
 ```
-![Gambar 6](kondisi1.png)
+![Gambar 6](kondisi.png)
 
 Penggunaan operator switch untuk seleksi kondisi 
 ```
@@ -195,7 +195,7 @@ Form Input
 </body>
 </html>
 ```
-![Gambar 8](form1.png)
+![Gambar 8](form.png)
 
 Form button
 ```
