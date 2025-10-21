@@ -104,7 +104,7 @@ Operasi dasar aritmatika
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Contoh Program Aritmatika</title>
+    <title>Contoh program javascript</title>
     <script languange="javascript">
     function test (val1, val2)
     {
