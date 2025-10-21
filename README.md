@@ -31,6 +31,7 @@
 </body>
 </html>
 ```
+![Gambar](jsdasar.png)
 ## Javascript dasar 
 Pemakaian Alert sebagai property window
 ```
@@ -265,6 +266,55 @@ Form button
 ![Gambar 10](dom.png)
 
 
+## Tugas Validasi Form
+
+```
+<!DOCTYPE html>
+<head>
+    <title>Validasi form</title>
+    <script>
+        function validasiForm() {
+            let nama = document.forms["formKu"]["nama"].value;
+            let email = document.forms["formKu"]["email"].value;
+            let pesan = document.forms["formKu"]["pesan"].value;
+
+            if (nama == "" || email == "" || pesan == "") {
+                alert("Semua kolom wajib diisi!");
+                return false;
+            }
+
+            let polaEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!polaEmail.test(email)) {
+                alert("Format email tidak valid!");
+                return false;
+            }
+
+            alert("Form berhasil dikirim!");
+            return true;
+        }
+    </script>
+</head>
+<body>
+    <h1>Form Validasi</h1>
+
+    <form name="form" onsubmit="return validasiForm()">
+        <label for="nama">Nama:</label><br>
+        <input type="text" id="nama" name="nama" placeholder="Masukkan nama"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email" placeholder="Masukkan email"><br><br>
+
+        <label for="pesan">Pesan:</label><br>
+        <textarea id="pesan" name="pesan" rows="4" cols="30" placeholder="Tulis pesan"></textarea><br><br>
+
+        <input type="submit" value="Kirim">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
+
+```
+![Gambar 11](validasi.png)
 
 
 
