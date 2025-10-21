@@ -102,7 +102,30 @@ Pembuatan fungsi dan cara pemanggilannya
 ## Dasar Pemrograman di Javascript
 Operasi dasar aritmatika
 ```
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contoh Program Aritmatika</title>
+    <script languange="javascript">
+    function test (val1, val2)
+    {
+        document.write("<br>"+"perkalian : val1*val2 "+"<br>")
+        document.write(val1*val2)
+        document.write("<br>"+"pembagian : val1/val2 "+"<br>")
+        document.write(val1/val2)
+        document.write("<br>"+"penjumlahan : val1+val2 "+"<br>")
+        document.write(val1+val2)
+        document.write("<br>"+"pengurangan : val1-val2 "+"<br>")
+        document.write(val1/val2)
+        document.write("<br>"+"modulus : val1%val2 "+"<br>")
+        document.write(val1/val2)
+    }
+    </script>
+</head>
+<body>
+    <input type="button" name="button1" value="arithmetic" onclick=test(9,4)>
+</body>
+</html>
 ```
 ![Gambar 5](aritmatika.png)
 
